@@ -1,0 +1,161 @@
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1.5fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+
+/* .left-panel{
+    width: 500px;
+    margin-right: 10px;
+} */
+
+.right-panel {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 492px;
+    height: 508px; */
+}
+
+
+.rating {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+
+.description {
+    color: #596780;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+/* .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #7D879C;
+} */
+
+.details2 {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Перенос элементов на новую строку, если не помещаются */
+    margin-bottom: 20px;
+    color: #7D879C;
+    justify-content: space-between; /*  Выравнивание элементов в начале контейнера */
+    /* gap: 10px; */
+    width: 444px;
+    font-size: 22px;
+  }
+  
+  .detail-item {
+    width: 200px; 
+    margin-bottom: 20px; /* Отступ между элементами */
+    display: flex; /* Для выравнивания label и value в строку */
+    justify-content: space-between; /*Распределяем label и value по краям*/
+  }
+  
+  .detail-label {
+    color: #7D879C; /* Цвет label (Type Car, Capacity и т.д.) */
+  }
+  
+  .detail-value {
+    color: #2D3748; /* Цвет value (Sport, 2 Person и т.д.) */
+    display: flex;
+    justify-content: flex-end; 
+  }
+
+.big-car {
+    background: #3563E9;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: left;
+    position: relative;
+    width: 450px;
+    height: 360px;
+    background-image: url('src/assets/img/Group 427320628.png');
+    background-repeat: no-repeat;
+}
+
+/* .big-car img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}  */
+
+.big-car-txt{
+    width: 450px;
+    font-size: 15px;
+    right: 160px;
+    /* margin-top: 10px; */
+    display: flex; 
+    flex-direction: column;
+    /* gap: 35px;  */
+}
+
+
+.mini-car{
+    width: 492px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    padding-top: 22px;
+}
+
+.mini-car img{
+    width: 148px;
+    height: 124px;
+}
+
+
+.price-slider {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 296px;
+    height: 6px;
+    background: #3563E9;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.price-value {
+    color: #4A5568;
+    font-size: 20px;
+}
+
+.filter-main-container{
+    display: flex;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; 
+}
+
+.hear{ 
+    position: absolute;
+    height: 24px; 
+    width: 24px;
+    right: 20px;
+    top: 20px;
+}
+

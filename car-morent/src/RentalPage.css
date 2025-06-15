@@ -1,0 +1,196 @@
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .main-section {
+    width: 65%;
+  }
+  
+  .section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  .input-container label {
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input, .input-container select {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 35px;
+    background-color: #F6F7F9;
+  }
+  
+  .summary-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 480px;
+  }
+  
+  .summary-content {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .rental-mini-car {
+    background: #3563E9;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 132px;
+    background-image: url('src/assets/img/bg-rental.png');
+  }
+
+  .car-image {
+    width: 116px;
+  }
+  
+  .summary-info{
+    padding-left: 20px;
+  }
+
+  .reviews-img{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .summary-prices {
+    margin-top: 10px;
+    color: #444;
+  }
+  .rental-summary {
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  
+  .subtotal-amount {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0 15px 0;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
+  .price-label, .promo-label {
+    color: #666;
+  }
+  
+  .price-value {
+    font-weight: 500;
+  }
+  
+  
+  .total-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  
+  
+  
+  .total-description {
+    color: #90A3BF;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  
+  .total-amount {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .apply-button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .total-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #F6F7F9;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .rent-button {
+    background: #3563E9;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
